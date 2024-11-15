@@ -1,0 +1,27 @@
+<!-- res/values/styles.xml -->
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.Sumativa2" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <!-- Custom theme for AddProduct activity with ActionBar -->
+    <style name="Theme.Sumativa2.AddProduct" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/vibrant_green</item>
+        <item name="colorPrimaryDark">@color/darker_green</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Widget.MyApp.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundMode">outline</item>
+        <item name="boxCornerRadiusTopStart">16dp</item>
+        <item name="boxCornerRadiusTopEnd">16dp</item>
+        <item name="boxCornerRadiusBottomStart">16dp</item>
+        <item name="boxCornerRadiusBottomEnd">16dp</item>
+        <item name="boxStrokeColor">@color/purple_500</item>
+        <item name="boxStrokeWidth">2dp</item>
+    </style>
+    <style name="ToolbarTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">@color/darker_green</item> <!-- Change this to your desired color -->
+    </style>
+</resources>

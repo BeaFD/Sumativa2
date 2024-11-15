@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Border background layer -->
+    <item android:drawable="@drawable/table_border"/>
+    <!-- Icon layer -->
+    <item>
+        <bitmap
+            android:src="@drawable/ic_settings"
+            android:gravity="center"/>
+    </item>
+</layer-list>

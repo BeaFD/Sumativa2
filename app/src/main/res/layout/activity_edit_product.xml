@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_green"
+    tools:context=".AddProduct">
+
+    <TextView
+        android:id="@+id/edit_plant_alias_label"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="257dp"
+        android:text="Alias"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/darker_green"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/edit_plant_alias"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_plant_toolbar" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/edit_plant_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/vibrant_green"
+        android:elevation="4dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:theme="@style/ToolbarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <!-- Spinner for selecting items -->
+    <Spinner
+        android:id="@+id/edit_plant_spinner"
+        android:layout_width="256dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="65dp"
+        android:background="@drawable/et_style"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_plant_toolbar"
+        app:layout_constraintWidth_percent="0.8" />
+
+    <EditText
+        android:id="@+id/edit_plant_alias"
+        android:layout_width="256dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginEnd="78dp"
+        android:background="@drawable/et_style"
+        android:ems="10"
+        android:inputType="text"
+        android:padding="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_plant_alias_label" />
+
+    <EditText
+        android:id="@+id/edit_plant_date"
+        android:layout_width="256dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="272dp"
+        android:layout_marginEnd="65dp"
+        android:background="@drawable/et_style"
+        android:clickable="true"
+        android:ems="10"
+        android:focusable="false"
+        android:inputType="date"
+        android:padding="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/edit_plant_date_label"
+        android:layout_width="187dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="147dp"
+        android:text="Fecha de Cultivo"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/darker_green"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/edit_plant_date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_plant_alias" />
+
+    <TextView
+        android:id="@+id/edit_plant_spinner_label"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="257dp"
+        android:text="Cultivo"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/darker_green"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/edit_plant_spinner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_plant_date" />
+
+    <Button
+        android:id="@+id/edit_plant_save"
+        android:layout_width="256dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="150dp"
+        android:background="@drawable/btn_style_light"
+        android:text="Guardar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_plant_spinner" />
+
+    <!-- Your other UI elements go here -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

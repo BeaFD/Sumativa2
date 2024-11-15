@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!--Color obscuro del gradiente Botones y color principal de vistas interiores-->
+    <color name="vibrant_green">#9CEC32</color>
+    <!--Color claro del gradiente Fondo botón Eliminar-->
+    <color name="light_green">#E8FACE</color>
+    <!--Color para botones de inicio-->
+    <color name="teal">#14AF61</color>
+    <!--Colores de bordes de botones-->
+    <color  name="dark_green">#48760B</color>
+    <!--Color fondo de vistas interiores-->
+    <color name="lighter_green">#F8FDF2</color>
+    <!--Color letras de inicio-->
+    <color name="darker_green">#3A590A</color>
+    <!--Color letras interior Color flechas de formulario-->
+    <color name="dark_grey">#424242</color>
+</resources>

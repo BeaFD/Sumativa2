@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottomSheetContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/editButton"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_style_light"
+        android:text="Editar"
+        android:textColor="@color/darker_green"
+        android:textStyle="bold"
+        tools:layout_margin="4dp" />
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_style_pale"
+        android:text="Eliminar"
+        android:textColor="@color/darker_green"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        tools:layout_margin="4dp" />
+</LinearLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "895945404958",
+    "project_id": "verduritassa-beatrizrodriguez",
+    "storage_bucket": "verduritassa-beatrizrodriguez.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895945404958:android:cc41744d27cb802c91740f",
+        "android_client_info": {
+          "package_name": "beatriz.rodriguez.verduritassa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895945404958-p95hucdi4bju709247s59ooa485ho855.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "beatriz.rodriguez.verduritassa",
+            "certificate_hash": "69d1eb9361b1d6d943c4f14877a06e40b1f5eca6"
+          }
+        },
+        {
+          "client_id": "895945404958-k24d23mhg1eis9m7gemu5517a7ckr265.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB05_D5FXN_AuRJgEoTpYL1Amq_6Ab_y3M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "895945404958-k24d23mhg1eis9m7gemu5517a7ckr265.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
